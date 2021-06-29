@@ -35,4 +35,4 @@ After you clone the repo and install the packages, you can run an 'npm start' to
 
 ## Screenshot 
 
-<img src='\User-directory_screenshot.PNG'>
+<img src='User-directory_screenshot.PNG'>
