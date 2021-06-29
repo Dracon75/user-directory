@@ -1,19 +1,22 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Search from "./components/Search";
+import './UserDirectory.css';
 import Header from "./components/Header";
-import RandomPerson from "./components/RandomPerson";
+import Wrapper from "./components/Wrapper";
+import SearchBar from "./components/SearchBar";
+import RandomUserApi from "./components/RandomUserApi";
+
 
 
 function App() {
   return (
-    <Router>
-      <div className="App">
+    <div className="App">
+      <Wrapper>
         <Header />
-        <Search />
-        <Route exact path="/" component={RandomPerson} />
-      </div>
-    </Router>
+        <SearchBar />
+        <RandomUserApi />
+      </Wrapper>
+
+    </div>
   );
 }
 
