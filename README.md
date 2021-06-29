@@ -1,6 +1,7 @@
 # User-Directory
 
 # View At
+https://dracon75.github.io/user-directory/
 
 ## About 
 
@@ -16,7 +17,7 @@ A react application that randomly generates an employee directory.
 
 ## Installation
 
-1. Clone the repo
+1. Clone the repo git@github.com:Dracon75/user-directory.git
 
 ```sh
 git clone 
@@ -34,4 +35,4 @@ After you clone the repo and install the packages, you can run an 'npm start' to
 
 ## Screenshot 
 
-<img src=''>
+<img src='public\User-directory_screenshot.PNG'>
